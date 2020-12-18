@@ -1,12 +1,12 @@
-@mixin horizonal-margin($value) {
-    margin-left: $value;
-    margin-right: $value;
-}
-
-body {
-    @include horizonal-margin(10px);
-}
-
-div {
-    @include horizonal-margin(15px);
-}
+@mixin margin-first($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+  }
+  
+  body {
+    @include margin-first(10px, 10px);
+  }
+  
+  div {
+    @include margin-first(15px, 15px);
+  }

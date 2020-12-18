@@ -1,13 +1,11 @@
 .info {
     font-size: 12px;
-}
-
-.success {
+  }
+  .success {
+    color: #00ff00;
     @extend .info;
-    color: #00FF00;
-}
-
-.warning {
-    @extend .info;
-    color: #FF0000;
-}
+  }
+  .warning {
+    color: #ff0000;
+    @extend .info
+  }
