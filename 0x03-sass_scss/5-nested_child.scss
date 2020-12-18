@@ -1,0 +1,7 @@
+/* Wanted to use CSS operators for more specific declarations? Sass' got ya covered */
+body {
+    color: #3D3D3D;
+    > .red {
+        color: #FF0000;
+    }
+}
