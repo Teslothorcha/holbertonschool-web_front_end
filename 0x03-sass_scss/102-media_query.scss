@@ -1,1 +1,15 @@
-$list_to_sort: john anna zoe kim felicia carrie;
+h1 {
+    font-size: 20px;
+    @media screen and (max-width: 960px) {
+      font-size: 18px;
+    }
+    @media screen and (max-width: 640px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 320px) {
+      font-size: 14px;
+      &.small {
+        color: #1d1d1d;
+      }
+    }
+  }
